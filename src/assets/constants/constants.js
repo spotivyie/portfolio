@@ -33,7 +33,7 @@ export const PROJECTS = [
         title: "ClickZone",
         image: clickzone,
         description: "ClickZone é uma plataforma moderna de e-commerce especializada em periféricos para computadores, oferecendo uma variedade de produtos como teclados, mouses, headsets e acessórios gamer. Construído com tecnologias como React, Vite, TailwindCSS e integrado com Stripe para pagamentos seguros, o sistema conta com backend em Node.js, Express e MongoDB para garantir performance e escalabilidade. O objetivo é entregar qualidade e praticidade para quem busca equipamentos de alta performance.",
-        technologies: ["React", "Vite", "TailwindCSS", "Stripe", "Node.js", "Express.js", "MongoDB", "JWT"],
+        technologies: ["React", "Vite", "TailwindCSS", "Stripe", "Node.js", "Express.js", "MongoDB", "JWT", "Recharts"],
         github: [
             { type: "Frontend", url: "https://github.com/spotivyie/clickzone_frontend" },
             { type: "Backend", url: "https://github.com/spotivyie/clickzone_backend" }
