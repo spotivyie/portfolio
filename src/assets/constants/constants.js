@@ -39,7 +39,7 @@ export const PROJECTS = [
             { type: "Backend", url: "https://github.com/spotivyie/clickzone_backend" }
         ],
         link: "https://clickzone-frontend.vercel.app",
-        video: "",
+        video: "https://streamable.com/wkpftf",
         summary: "ClickZone é uma loja online de acessórios gamer com foco em desempenho e tecnologia moderna.",
     },
     {
