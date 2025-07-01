@@ -22,12 +22,27 @@ const Navbar = () => {
                 </div>
 
                 {/* Botão Hamburguer Mobile */}
-                <button className='md:hidden p-2 top-6 right-6 absolute' onClick={toggleOpen}>
-                    <div className='w-6 h-5 flex flex-col justify-between'>
-                        <span className='w-full h-0.5 bg-gray-600 dark:bg-gray-400 transition-all'></span>
-                        <span className='w-full h-0.5 bg-gray-600 dark:bg-gray-400 transition-all'></span>
-                        <span className='w-full h-0.5 bg-gray-600 dark:bg-gray-400 transition-all'></span>
-                    </div>
+                <button
+                    aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+                    className='md:hidden relative w-6 h-6 flex flex-col justify-between items-center'
+                    onClick={toggleOpen}
+                >
+                    {/* Linha animada para transformar em X */}
+                    <span
+                        className={`block h-0.5 w-full bg-gray-600 dark:bg-gray-400 rounded transition-transform duration-300 ease-in-out
+                        ${isOpen ? 'rotate-45 translate-y-3' : ''}
+                        `}
+                    />
+                    <span
+                        className={`block h-0.5 w-full bg-gray-600 dark:bg-gray-400 rounded transition-opacity duration-300 ease-in-out
+                        ${isOpen ? 'opacity-0' : 'opacity-100'}
+                        `}
+                    />
+                    <span
+                        className={`block h-0.5 w-full bg-gray-600 dark:bg-gray-400 rounded transition-transform duration-300 ease-in-out
+                        ${isOpen ? '-rotate-45 -translate-y-3' : ''}
+                        `}
+                    />
                 </button>
 
                 {/* Menu Mobile */}

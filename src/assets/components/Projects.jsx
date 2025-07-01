@@ -19,14 +19,14 @@ const Projects = () => {
                 Projetos
             </motion.h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:px-10">
                 {PROJECTS.map((project, index) => (
                     <motion.div
                         key={index}
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: 50 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
-                        className="bg-theme lg:p-6 rounded-md shadow-md hover:shadow-xl transition-shadow cursor-pointer"
+                        className="bg-theme lg:p-6 p-4 rounded-md shadow-md hover:shadow-xl transition-shadow cursor-pointer"
                         onClick={() => setSelectedProject(project)}
                     >
                         <img

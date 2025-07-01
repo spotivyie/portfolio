@@ -21,7 +21,6 @@ const Modal = ({ project, onClose }) => {
                 onClick={(e) => e.stopPropagation()}
                 className="bg-theme rounded-lg p-4 sm:p-6 w-full max-w-2xl shadow-lg relative"
             >
-                {/* Botão fechar */}
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-4 text-2xl font-bold text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"
@@ -29,11 +28,7 @@ const Modal = ({ project, onClose }) => {
                 >
                     &times;
                 </button>
-
-                {/* Título */}
                 <h2 className="text-xl sm:text-2xl font-semibold mb-4">{project.title}</h2>
-
-                {/* Vídeo */}
                 {project.video && (
                     <div className="w-full mb-4">
                         {isStreamable ? (
@@ -43,7 +38,7 @@ const Modal = ({ project, onClose }) => {
                                 height="360"
                                 frameBorder="0"
                                 allowFullScreen
-                                className="rounded max-h-[60vh]"
+                                className="rounded h-52 sm:h-80 w-full object-contain"
                                 title={project.title}
                             ></iframe>
                         ) : (
@@ -57,11 +52,7 @@ const Modal = ({ project, onClose }) => {
                         )}
                     </div>
                 )}
-
-                {/* Descrição */}
                 <p className="text-sm sm:text-base mb-6">{project.description}</p>
-
-                {/* Tecnologias */}
                 <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech, idx) => (
                         <span
@@ -72,8 +63,6 @@ const Modal = ({ project, onClose }) => {
                         </span>
                     ))}
                 </div>
-
-                {/* Links */}
                 <div className="flex flex-wrap gap-4">
                     {project.link && (
                         <a
