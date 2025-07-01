@@ -9,7 +9,7 @@ const Projects = () => {
 
     return (
         <div className='border-b border-theme pb-35 pt-35'>
-            <motion.h1  
+            <motion.h1
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
@@ -30,9 +30,9 @@ const Projects = () => {
                         onClick={() => setSelectedProject(project)}
                     >
                         <img
-                            src={project.image}
-                            alt={project.title}
-                            className="rounded object-cover w-full h-48 mb-4"
+                        src={project.image}
+                        alt={project.title}
+                        className="rounded object-cover w-full h-48 mb-4"
                         />
                         <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
                         <p className="mb-4">{project.summary}</p>
@@ -77,7 +77,7 @@ const Projects = () => {
                     </motion.div>
                 ))}
             </div>
-            {/* Modal */}
+
             {selectedProject && (
                 <Modal
                     project={selectedProject}

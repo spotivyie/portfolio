@@ -4,6 +4,14 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 const Modal = ({ project, onClose }) => {
     if (!project) return null
 
+    const isStreamable = project.video?.includes('streamable.com')
+
+    let streamableId = ''
+    if (isStreamable) {
+        const match = project.video.match(/streamable\.com\/(\w+)/)
+        if (match) streamableId = match[1]
+    }
+
     return (
         <div
             onClick={onClose}
@@ -13,7 +21,7 @@ const Modal = ({ project, onClose }) => {
                 onClick={(e) => e.stopPropagation()}
                 className="bg-theme rounded-lg p-4 sm:p-6 w-full max-w-2xl shadow-lg relative"
             >
-                {/* Botão de fechar */}
+                {/* Botão fechar */}
                 <button
                     onClick={onClose}
                     className="absolute top-3 right-4 text-2xl font-bold text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"
@@ -28,13 +36,25 @@ const Modal = ({ project, onClose }) => {
                 {/* Vídeo */}
                 {project.video && (
                     <div className="w-full mb-4">
-                        <video
-                            controls
-                            className="w-full h-auto rounded max-h-[60vh] object-contain"
-                        >
-                            <source src={project.video} type="video/mp4" />
-                            Seu navegador não suporta a tag de vídeo.
-                        </video>
+                        {isStreamable ? (
+                            <iframe
+                                src={`https://streamable.com/e/${streamableId}`}
+                                width="100%"
+                                height="360"
+                                frameBorder="0"
+                                allowFullScreen
+                                className="rounded max-h-[60vh]"
+                                title={project.title}
+                            ></iframe>
+                        ) : (
+                            <video
+                                controls
+                                className="w-full h-auto rounded max-h-[60vh] object-contain"
+                            >
+                                <source src={project.video} type="video/mp4" />
+                                Seu navegador não suporta a tag de vídeo.
+                            </video>
+                        )}
                     </div>
                 )}
 
@@ -65,16 +85,17 @@ const Modal = ({ project, onClose }) => {
                             <FaExternalLinkAlt /> Ver Projeto
                         </a>
                     )}
-                    {project.github && project.github.map(({ type, url }) => (
-                        <a
-                            key={type}
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 text-sm text-theme transition-colors"
-                        >
-                            <FaGithub /> {type}
-                        </a>
+                {project.github &&
+                    project.github.map(({ type, url }) => (
+                    <a
+                        key={type}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm text-theme transition-colors"
+                    >
+                        <FaGithub /> {type}
+                    </a>
                     ))}
                 </div>
             </div>

@@ -7,11 +7,6 @@ import notas from '../projects/notas.jpeg'
 import efood from '../projects/efood.jpeg'
 import disney from '../projects/disney.jpeg'
 
-import videoClickZone from '../projects/ClickZone.mp4'
-import videoSipDrop from '../projects/SipDrop.mp4'
-import videosEssenze from '../projects/Essenze.mp4'
-import videosExpense from '../projects/Expense.mp4'
-
 export const HERO_CONTENT = `Desenvolvedor Full Stack com foco em aplicações web modernas, atuando no desenvolvimento de interfaces interativas e responsivas com React, TypeScript e JavaScript, além da construção de APIs e soluções back-end com Node.js e Java.`
 
 export const ABOUT_TEXT = `Sou desenvolvedora Full Stack com mais de 2 anos de experiência em desenvolvimento web, atuando principalmente com React, JavaScript, TypeScript e Node.js. Tenho formação complementar pela EBAC e Rocketseat, e atualmente curso Ciência da Computação. Gosto de criar soluções que combinam design funcional com código limpo. Tenho uma mentalidade colaborativa, facilidade em aprender, resiliência e paixão por inovação. Neste portfólio, você encontrará projetos que refletem meu crescimento técnico e minha dedicação ao desenvolvimento de software moderno.`
@@ -44,7 +39,7 @@ export const PROJECTS = [
             { type: "Backend", url: "https://github.com/spotivyie/clickzone_backend" }
         ],
         link: "https://clickzone-frontend.vercel.app",
-        video: videoClickZone,
+        video: "",
         summary: "ClickZone é uma loja online de acessórios gamer com foco em desempenho e tecnologia moderna.",
     },
     {
@@ -56,7 +51,7 @@ export const PROJECTS = [
             { type: "Frontend", url: "https://github.com/spotivyie/essenze" }
         ],
         link: "https://essenze.vercel.app",
-        video: videosEssenze,
+        video: "https://streamable.com/n4jwun",
         summary: "Essenze é uma loja online moderna de perfumes, com interface elegante e fácil de usar.",
     },
     {
@@ -68,7 +63,7 @@ export const PROJECTS = [
             { type: "Frontend", url: "https://github.com/spotivyie/sipdrop" }
         ],
         link: "https://sipdrop.vercel.app",
-        video: videoSipDrop,
+        video: "https://streamable.com/6erln9",
         summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
 
     },
@@ -82,7 +77,7 @@ export const PROJECTS = [
             { type: "Backend", url: "https://github.com/spotivyie/expense_backend" }
         ],
         link: "https://expense-frontend-sooty.vercel.app",
-        video: videosExpense,
+        video: "https://streamable.com/g3v838",
         summary: "Expense é um app de controle financeiro pessoal com foco em organização, segurança e tecnologia.",
     },
     {
