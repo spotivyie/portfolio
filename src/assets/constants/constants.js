@@ -7,7 +7,7 @@ import notas from '../projects/notas.jpeg'
 import efood from '../projects/efood.jpeg'
 import disney from '../projects/disney.jpeg'
 
-export const HERO_CONTENT = `Desenvolvedor Full Stack com foco em aplicações web modernas, atuando no desenvolvimento de interfaces interativas e responsivas com React, TypeScript e JavaScript, além da construção de APIs e soluções back-end com Node.js e Java.`
+export const HERO_CONTENT = `Desenvolvedora Full Stack com foco em aplicações web modernas, atuando no desenvolvimento de interfaces interativas e responsivas com React, TypeScript e JavaScript, além da construção de APIs e soluções back-end com Node.js e Java.`
 
 export const ABOUT_TEXT = `Sou desenvolvedora Full Stack com mais de 2 anos de experiência em desenvolvimento web, atuando principalmente com React, JavaScript, TypeScript e Node.js. Tenho formação complementar pela EBAC e Rocketseat, e atualmente curso Ciência da Computação. Gosto de criar soluções que combinam design funcional com código limpo. Tenho uma mentalidade colaborativa, facilidade em aprender, resiliência e estou sempre em busca de aprender mais. Neste portfólio, compartilho projetos que mostram meu crescimento técnico e minha dedicação ao desenvolvimento de software moderno.`
 

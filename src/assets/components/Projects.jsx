@@ -8,7 +8,7 @@ const Projects = () => {
     const [selectedProject, setSelectedProject] = useState(null)
 
     return (
-        <div className='border-b border-theme pb-35 pt-35'>
+        <div className='border-b border-theme py-20 lg:py-35'>
             <motion.h1
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}

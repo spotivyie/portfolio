@@ -16,7 +16,7 @@ const container = (delay) => ({
 
 const Hero = () => {
     return (
-        <div className='border-b border-theme pb-10 lg:pb-35 mt-50'>
+        <div className='border-b border-theme pb-10 lg:pb-35 mt-30 sm:mt-50'>
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start'>
@@ -34,7 +34,7 @@ const Hero = () => {
                             animate="visible"
                             className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'
                         >
-                            Desenvolvedor Full Stack
+                            Desenvolvedora Full Stack
                         </motion.span>
                         <motion.p
                             variants={container(0.6)}
@@ -50,7 +50,7 @@ const Hero = () => {
                             variants={container(0.9)}
                             initial="hidden"
                             animate="visible"
-                            className='mb-4 flex space-x-4'
+                            className='mb-4 flex space-x-4 sm:justify-center lg:justify-normal'
                         >
                             <a
                                 href='https://github.com/spotivyie'

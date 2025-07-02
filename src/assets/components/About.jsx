@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
     return (
-        <div className='border-b border-theme pb-35 pt-35'>
+        <div className='border-b border-theme py-20 lg:py-35'>
             <h1 className='mb-20 text-center text-4xl' id='about'>Sobre mim</h1>
             <div className='flex flex-wrap'>
                 <motion.div 
