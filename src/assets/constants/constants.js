@@ -62,7 +62,7 @@ export const PROJECTS = [
         github: [
             { type: "Frontend", url: "https://github.com/spotivyie/sipdrop" }
         ],
-        link: "https://sipdrop-4g5l6d0dd-spotivyies-projects.vercel.app",
+        link: "https://sipdrop.vercel.app",
         video: "https://streamable.com/6erln9",
         summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
 
