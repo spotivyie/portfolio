@@ -9,7 +9,14 @@ import disney from '../projects/disney.jpeg'
 
 export const HERO_CONTENT = `Desenvolvedora Full Stack com foco em aplicações web modernas, atuando no desenvolvimento de interfaces interativas e responsivas com React, TypeScript e JavaScript, além da construção de APIs e soluções back-end com Node.js e Java.`
 
-export const ABOUT_TEXT = `Sou desenvolvedora Full Stack com mais de 2 anos de experiência em desenvolvimento web, atuando principalmente com React, JavaScript, TypeScript e Node.js. Tenho formação complementar pela EBAC e Rocketseat, e atualmente curso Ciência da Computação. Gosto de criar soluções que combinam design funcional com código limpo. Tenho uma mentalidade colaborativa, facilidade em aprender, resiliência e estou sempre em busca de aprender mais. Neste portfólio, compartilho projetos que mostram meu crescimento técnico e minha dedicação ao desenvolvimento de software moderno.`
+export const ABOUT_TEXT = `Sou desenvolvedora Full Stack com mais de 2 anos de experiência em desenvolvimento web, atuando principalmente com React, JavaScript, TypeScript e Node.js.
+
+Tenho formação complementar pela EBAC e Rocketseat, onde aprofundei meus conhecimentos em desenvolvimento front-end e back-end, metodologias ágeis e boas práticas de código. Atualmente, curso Ciência da Computação, o que vem ampliando ainda mais minha base teórica e técnica.
+
+Gosto de criar soluções que combinam design funcional com código limpo. Tenho uma mentalidade colaborativa, facilidade em aprender, resiliência e estou sempre em busca de aprender mais.
+
+Neste portfólio, compartilho projetos que mostram meu crescimento técnico, minha dedicação ao desenvolvimento de software moderno e que representam minha evolução como desenvolvedora.`;
+
 
 export const EXPERIENCES = [
     {
