@@ -7,7 +7,7 @@ import { BiLogoPostgresql } from 'react-icons/bi'
 import { SiMongodb } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { DiJava } from 'react-icons/di'
-
+import { SiJavascript } from 'react-icons/si'
 import { motion } from 'framer-motion'
 
 const iconVariants = (duration) => ({
