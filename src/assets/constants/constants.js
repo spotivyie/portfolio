@@ -1,3 +1,4 @@
+import meditime from '../projects/meditime.jpeg'
 import clickzone from '../projects/clickzone.jpeg'
 import expense from '../projects/expense.jpeg'
 import eplay from '../projects/eplay.jpeg'
@@ -37,6 +38,19 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
+        title: "Meditime",
+        image: meditime,
+        description: "Meditime é uma plataforma de agendamento médico que facilita a marcação de consultas online, proporcionando uma experiência simples tanto para os pacientes quanto para os profissionais de saúde. O sistema permite que os usuários agendem, cancelem e gerenciem suas consultas, além de integrar funcionalidades de gestão de disponibilidade e comunicação entre pacientes e médicos. O backend é desenvolvido com Node.js, Express, MongoDB e autenticação segura via JWT, enquanto o frontend utiliza React, Vite, e TailwindCSS para uma interface moderna e intuitiva.",
+        technologies: ["React", "Vite", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "JWT", "Axios", "Recharts"],
+        github: [
+            { type: "Frontend", url: "https://github.com/spotivyie/meditime_frontend" },
+            { type: "Backend", url: "https://github.com/spotivyie/meditime_backend" }
+        ],
+        link: "https://meditime-frontend.vercel.app/login",
+        video: "https://streamable.com/dcn7io",
+        summary: "Meditime é uma plataforma de agendamento médico, que facilita a marcação e gestão de consultas.",
+    },
+    {
         title: "ClickZone",
         image: clickzone,
         description: "ClickZone é uma plataforma moderna de e-commerce especializada em periféricos para computadores, oferecendo uma variedade de produtos como teclados, mouses, headsets e acessórios gamer. Construído com tecnologias como React, Vite, TailwindCSS e integrado com Stripe para pagamentos seguros, o sistema conta com backend em Node.js, Express e MongoDB para garantir performance e escalabilidade. O objetivo é entregar qualidade e praticidade para quem busca equipamentos de alta performance.",
@@ -50,16 +64,17 @@ export const PROJECTS = [
         summary: "ClickZone é uma loja online de acessórios gamer com foco em desempenho e tecnologia moderna.",
     },
     {
-        title: "Essenze",
-        image: essenze,
-        description: "Essenze é um frontend moderno em React e TypeScript, usando Vite para build rápido. Usa Redux Toolkit para estado, React Hook Form e Zod para formulários, e Styled Components para estilização. Inclui Phosphor Icons, Immer para estado imutável, e ESLint com TypeScript para qualidade do código.",
-        technologies: ["React", "TypeScript", "Vite", "Styled Components", "React Hook Form", "Zod"],
+        title: "Expense",
+        image: expense,
+        description: "Expense é uma aplicação moderna para controle financeiro pessoal, que facilita o gerenciamento de despesas e rendas. O frontend, construído com React, Vite e TailwindCSS, oferece uma interface intuitiva e responsiva, com gráficos de dados usando Recharts e notificações com react-hot-toast. O backend utiliza Node.js, Express e MongoDB com Mongoose para persistência de dados, além de recursos como autenticação segura via JWT, upload de arquivos com Multer e segurança de senhas com bcryptjs.",
+        technologies: ["React", "TailwindCSS", "Recharts", "Node.js", "MongoDB", "Vite", "Express.js" ],
         github: [
-            { type: "Frontend", url: "https://github.com/spotivyie/essenze" }
+            { type: "Frontend", url: "https://github.com/spotivyie/expense_frontend" },
+            { type: "Backend", url: "https://github.com/spotivyie/expense_backend" }
         ],
-        link: "https://essenze.vercel.app",
-        video: "https://streamable.com/n4jwun",
-        summary: "Essenze é uma loja online moderna de perfumes, com interface elegante e fácil de usar.",
+        link: "https://expense-frontend-sooty.vercel.app",
+        video: "https://streamable.com/g3v838",
+        summary: "Expense é um app de controle financeiro pessoal com foco em organização, segurança e tecnologia.",
     },
     {
         title: "SipDrop",
@@ -72,20 +87,18 @@ export const PROJECTS = [
         link: "https://sipdrop.vercel.app",
         video: "https://streamable.com/6erln9",
         summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
-
     },
     {
-        title: "Expense",
-        image: expense,
-        description: "Expense é uma aplicação moderna para controle financeiro pessoal, que facilita o gerenciamento de despesas e rendas. O frontend, construído com React, Vite e TailwindCSS, oferece uma interface intuitiva e responsiva, com gráficos de dados usando Recharts e notificações com react-hot-toast. O backend utiliza Node.js, Express e MongoDB com Mongoose para persistência de dados, além de recursos como autenticação segura via JWT, upload de arquivos com Multer e segurança de senhas com bcryptjs.",
-        technologies: ["React", "TailwindCSS", "Recharts", "Node.js", "MongoDB", "Vite", "Express.js" ],
+        title: "Essenze",
+        image: essenze,
+        description: "Essenze é um frontend moderno em React e TypeScript, usando Vite para build rápido. Usa Redux Toolkit para estado, React Hook Form e Zod para formulários, e Styled Components para estilização. Inclui Phosphor Icons, Immer para estado imutável, e ESLint com TypeScript para qualidade do código.",
+        technologies: ["React", "TypeScript", "Vite", "Styled Components", "React Hook Form", "Zod"],
         github: [
-            { type: "Frontend", url: "https://github.com/spotivyie/expense_frontend" },
-            { type: "Backend", url: "https://github.com/spotivyie/expense_backend" }
+            { type: "Frontend", url: "https://github.com/spotivyie/essenze" }
         ],
-        link: "https://expense-frontend-sooty.vercel.app",
-        video: "https://streamable.com/g3v838",
-        summary: "Expense é um app de controle financeiro pessoal com foco em organização, segurança e tecnologia.",
+        link: "https://essenze.vercel.app",
+        video: "https://streamable.com/n4jwun",
+        summary: "Essenze é uma loja online moderna de perfumes, com interface elegante e fácil de usar.",
     },
     {
         title: "EPLAY",
