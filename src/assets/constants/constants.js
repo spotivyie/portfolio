@@ -67,7 +67,7 @@ export const PROJECTS = [
         title: "Expense",
         image: expense,
         description: "Expense é uma aplicação moderna para controle financeiro pessoal, que facilita o gerenciamento de despesas e rendas. O frontend, construído com React, Vite e TailwindCSS, oferece uma interface intuitiva e responsiva, com gráficos de dados usando Recharts e notificações com react-hot-toast. O backend utiliza Node.js, Express e MongoDB com Mongoose para persistência de dados, além de recursos como autenticação segura via JWT, upload de arquivos com Multer e segurança de senhas com bcryptjs.",
-        technologies: ["React", "TailwindCSS", "Recharts", "Node.js", "MongoDB", "Vite", "Express.js" ],
+        technologies: ["React", "TailwindCSS", "Recharts", "Node.js", "MongoDB", "Vite", "Express.js", "Axios" ],
         github: [
             { type: "Frontend", url: "https://github.com/spotivyie/expense_frontend" },
             { type: "Backend", url: "https://github.com/spotivyie/expense_backend" }
