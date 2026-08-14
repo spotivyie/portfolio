@@ -1,3 +1,4 @@
+import revizzi from '../projects/revizzi.jpeg'
 import meditime from '../projects/meditime.jpeg'
 import clickzone from '../projects/clickzone.jpeg'
 import expense from '../projects/expense.jpeg'
@@ -10,7 +11,7 @@ import disney from '../projects/disney.jpeg'
 
 export const HERO_CONTENT = `Desenvolvedora Full Stack com foco em aplicações web modernas, atuando no desenvolvimento de interfaces interativas e responsivas com React, TypeScript e JavaScript, além da construção de APIs e soluções back-end com Node.js e Java.`
 
-export const ABOUT_TEXT = `Atuo há mais de 2 anos em projetos pessoais e acadêmicos com foco em tecnologias web, utilizando principalmente React, JavaScript, TypeScript e Node.js.
+export const ABOUT_TEXT = `Atuo há mais de 2 anos como freelancer com foco em tecnologias web, utilizando principalmente React, JavaScript, TypeScript e Node.js.
 
 Tenho formação complementar pela EBAC e Rocketseat, onde aprofundei meus conhecimentos em desenvolvimento front-end e back-end, metodologias ágeis e boas práticas de código. Atualmente, curso Ciência da Computação, o que vem ampliando ainda mais minha base teórica e técnica.
 
@@ -37,6 +38,15 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
+    {
+        title: "Revizzi Centro Automotivo",
+        image: revizzi,
+        description: "Revizzi Centro Automotivo é um site moderno e responsivo para apresentação de serviços automotivos, desenvolvido com React e TypeScript, com foco em uma experiência intuitiva e profissional.",
+        technologies: ["React", "TypeScript", "Vite", "Tailwind CSS", "Framer Motion", "React Router", "Lucide React"],
+        link: "https://www.revizzicentroautomotivo.com.br",
+        video: "",
+        summary: "Revizzi Centro Automotivo é um site moderno para apresentação de serviços automotivos.",
+    },
     {
         title: "Meditime",
         image: meditime,
