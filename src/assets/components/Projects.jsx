@@ -26,7 +26,7 @@ const Projects = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: 50 }}
                         transition={{ duration: 0.6, delay: index * 0.1 }}
-                        className="bg-theme lg:p-6 p-4 rounded-md shadow-md hover:shadow-xl transition-shadow cursor-pointer"
+                        className="bg-theme lg:p-6 p-4 rounded-md shadow-md hover:shadow-xl transition-shadow"
                         onClick={() => setSelectedProject(project)}
                     >
                         <img
@@ -78,12 +78,12 @@ const Projects = () => {
                 ))}
             </div>
 
-            {selectedProject && (
+            {/* {selectedProject && (
                 <Modal
                     project={selectedProject}
                     onClose={() => setSelectedProject(null)}
                 />
-            )}
+            )} */}
         </div>
     )
 }
