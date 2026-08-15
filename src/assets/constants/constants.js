@@ -48,19 +48,6 @@ export const PROJECTS = [
         summary: "Revizzi Centro Automotivo é um site moderno para apresentação de serviços automotivos.",
     },
     {
-        title: "Meditime",
-        image: meditime,
-        description: "Meditime é uma plataforma de agendamento médico que facilita a marcação de consultas online, proporcionando uma experiência simples tanto para os pacientes quanto para os profissionais de saúde. O sistema permite que os usuários agendem, cancelem e gerenciem suas consultas, além de integrar funcionalidades de gestão de disponibilidade e comunicação entre pacientes e médicos. O backend é desenvolvido com Node.js, Express, MongoDB e autenticação segura via JWT, enquanto o frontend utiliza React, Vite, e TailwindCSS para uma interface moderna e intuitiva.",
-        technologies: ["React", "Vite", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "JWT", "Axios", "Recharts"],
-        github: [
-            { type: "Frontend", url: "https://github.com/spotivyie/meditime_frontend" },
-            { type: "Backend", url: "https://github.com/spotivyie/meditime_backend" }
-        ],
-        link: "https://meditime-frontend.vercel.app/login",
-        video: "https://streamable.com/dcn7io",
-        summary: "Meditime é uma plataforma de agendamento médico, que facilita a marcação e gestão de consultas.",
-    },
-    {
         title: "ClickZone",
         image: clickzone,
         description: "ClickZone é uma plataforma moderna de e-commerce especializada em periféricos para computadores, oferecendo uma variedade de produtos como teclados, mouses, headsets e acessórios gamer. Construído com tecnologias como React, Vite, TailwindCSS e integrado com Stripe para pagamentos seguros, o sistema conta com backend em Node.js, Express e MongoDB para garantir performance e escalabilidade. O objetivo é entregar qualidade e praticidade para quem busca equipamentos de alta performance.",
@@ -74,6 +61,31 @@ export const PROJECTS = [
         summary: "ClickZone é uma loja online de acessórios gamer com foco em desempenho e tecnologia moderna.",
     },
     {
+        title: "SipDrop",
+        image: sipdrop,
+        description: "SipDrop é uma plataforma moderna voltada para a venda de bebidas. Desenvolvida com Next.js, TypeScript e integração com Stripe, ela oferece uma experiência fluida, responsiva e segura tanto para clientes quanto para administradores.",
+        technologies: ["Next.js","TypeScript","Tailwind CSS","MongoDB","NextAuth","Stripe","React Hook Form"],
+        github: [
+            { type: "Fullstack", url: "https://github.com/spotivyie/sipdrop" }
+        ],
+        link: "https://sipdrop.vercel.app",
+        video: "https://streamable.com/6erln9",
+        summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
+    },
+    {
+        title: "Meditime",
+        image: meditime,
+        description: "Meditime é uma plataforma de agendamento médico que facilita a marcação de consultas online, proporcionando uma experiência simples tanto para os pacientes quanto para os profissionais de saúde. O sistema permite que os usuários agendem, cancelem e gerenciem suas consultas, além de integrar funcionalidades de gestão de disponibilidade e comunicação entre pacientes e médicos. O backend é desenvolvido com Node.js, Express, MongoDB e autenticação segura via JWT, enquanto o frontend utiliza React, Vite, e TailwindCSS para uma interface moderna e intuitiva.",
+        technologies: ["React", "Vite", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "JWT", "Axios", "Recharts"],
+        github: [
+            { type: "Frontend", url: "https://github.com/spotivyie/meditime_frontend" },
+            { type: "Backend", url: "https://github.com/spotivyie/meditime_backend" }
+        ],
+        link: "https://meditime-frontend.vercel.app/login",
+        video: "https://streamable.com/dcn7io",
+        summary: "Meditime é uma plataforma de agendamento médico, que facilita a marcação e gestão de consultas.",
+    },
+    {
         title: "Expense",
         image: expense,
         description: "Expense é uma aplicação moderna para controle financeiro pessoal, que facilita o gerenciamento de despesas e rendas. O frontend, construído com React, Vite e TailwindCSS, oferece uma interface intuitiva e responsiva, com gráficos de dados usando Recharts e notificações com react-hot-toast. O backend utiliza Node.js, Express e MongoDB com Mongoose para persistência de dados, além de recursos como autenticação segura via JWT, upload de arquivos com Multer e segurança de senhas com bcryptjs.",
@@ -85,18 +97,6 @@ export const PROJECTS = [
         link: "https://expense-frontend-sooty.vercel.app",
         video: "https://streamable.com/g3v838",
         summary: "Expense é um app de controle financeiro pessoal com foco em organização, segurança e tecnologia.",
-    },
-    {
-        title: "SipDrop",
-        image: sipdrop,
-        description: "SipDrop é uma plataforma moderna voltada para a venda de bebidas. Desenvolvida com Next.js, TypeScript e integração com Stripe, ela oferece uma experiência fluida, responsiva e segura tanto para clientes quanto para administradores.",
-        technologies: ["Next.js","TypeScript","Tailwind CSS","MongoDB","NextAuth","Stripe","React Hook Form"],
-        github: [
-            { type: "Frontend", url: "https://github.com/spotivyie/sipdrop" }
-        ],
-        link: "https://sipdrop.vercel.app",
-        video: "https://streamable.com/6erln9",
-        summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
     },
     {
         title: "Essenze",
