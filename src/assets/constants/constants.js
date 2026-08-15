@@ -61,18 +61,6 @@ export const PROJECTS = [
         summary: "ClickZone é uma loja online de acessórios gamer com foco em desempenho e tecnologia moderna.",
     },
     {
-        title: "SipDrop",
-        image: sipdrop,
-        description: "SipDrop é uma plataforma moderna voltada para a venda de bebidas. Desenvolvida com Next.js, TypeScript e integração com Stripe, ela oferece uma experiência fluida, responsiva e segura tanto para clientes quanto para administradores.",
-        technologies: ["Next.js","TypeScript","Tailwind CSS","MongoDB","NextAuth","Stripe","React Hook Form"],
-        github: [
-            { type: "Fullstack", url: "https://github.com/spotivyie/sipdrop" }
-        ],
-        link: "https://sipdrop.vercel.app",
-        video: "https://streamable.com/6erln9",
-        summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
-    },
-    {
         title: "Meditime",
         image: meditime,
         description: "Meditime é uma plataforma de agendamento médico que facilita a marcação de consultas online, proporcionando uma experiência simples tanto para os pacientes quanto para os profissionais de saúde. O sistema permite que os usuários agendem, cancelem e gerenciem suas consultas, além de integrar funcionalidades de gestão de disponibilidade e comunicação entre pacientes e médicos. O backend é desenvolvido com Node.js, Express, MongoDB e autenticação segura via JWT, enquanto o frontend utiliza React, Vite, e TailwindCSS para uma interface moderna e intuitiva.",
@@ -84,6 +72,18 @@ export const PROJECTS = [
         link: "https://meditime-frontend.vercel.app/login",
         video: "https://streamable.com/dcn7io",
         summary: "Meditime é uma plataforma de agendamento médico, que facilita a marcação e gestão de consultas.",
+    },
+    {
+        title: "SipDrop",
+        image: sipdrop,
+        description: "SipDrop é uma plataforma moderna voltada para a venda de bebidas. Desenvolvida com Next.js, TypeScript e integração com Stripe, ela oferece uma experiência fluida, responsiva e segura tanto para clientes quanto para administradores.",
+        technologies: ["Next.js","TypeScript","Tailwind CSS","MongoDB","NextAuth","Stripe","React Hook Form"],
+        github: [
+            { type: "Fullstack", url: "https://github.com/spotivyie/sipdrop" }
+        ],
+        link: "https://sipdrop.vercel.app",
+        video: "https://streamable.com/6erln9",
+        summary: "SipDrop é uma loja online de bebidas que oferece praticidade e segurança na sua compra."
     },
     {
         title: "Expense",
